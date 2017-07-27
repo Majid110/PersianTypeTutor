@@ -11,4 +11,5 @@ Persian Keyboard Installer is taken from [ehsanakhgari.org](http://ehsanakhgari.
 
 برای استفاده بهتر از تمرینات فارسی لطفا مطلب ذکر شده در آدرس زیر را مطالعه کنید
 
-http://www.ittrick.ir/2012/05/persian-type-tutor.html
+[www.ittrick.ir]( http://www.ittrick.ir/post/2012/02/14/%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D9%85%D8%AA%D9%86%E2%80%8C%D8%A8%D8%A7%D8%B2-persian-type-tutor)
+
