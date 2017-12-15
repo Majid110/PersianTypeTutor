@@ -31,25 +31,9 @@ object frmSplash: TfrmSplash
     Height = 300
     OnClick = imgBackClick
   end
-  object lblWebsite: TLabel
-    Left = 18
-    Top = 264
-    Width = 145
-    Height = 13
-    Cursor = crHandPoint
-    BiDiMode = bdLeftToRight
-    Caption = 'http://persiantt.codeplex.com'
-    Font.Charset = ARABIC_CHARSET
-    Font.Color = clSilver
-    Font.Height = -11
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentBiDiMode = False
-    ParentFont = False
-  end
   object lblVersion: TLabel
-    Left = 18
-    Top = 250
+    Left = 22
+    Top = 262
     Width = 45
     Height = 13
     Alignment = taRightJustify

@@ -17,7 +17,6 @@ uses
 type
   TfrmSplash = class(TForm)
     imgBack: TImage;
-    lblWebsite: TLabel;
     lblVersion: TLabel;
     procedure FormActivate(Sender: TObject);
     procedure FormCreate(Sender: TObject);

@@ -46,7 +46,7 @@ end;
 
 procedure TfrmAbout.WebSiteClick(Sender: TObject);
 begin
-  shellExecute(Application.Handle, 'open', 'http://persiantt.codeplex.com', nil, nil, SW_NORMAL);
+  ShellExecute(Application.Handle, 'open', 'https://github.com/Majid110/PersianTypeTutor', nil, nil, SW_NORMAL);
 end;
 
 end.

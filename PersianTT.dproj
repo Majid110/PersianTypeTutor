@@ -85,11 +85,11 @@
 			<DCC_DebugInformation>false</DCC_DebugInformation>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
-			<VerInfo_MinorVer>7</VerInfo_MinorVer>
+			<VerInfo_MinorVer>8</VerInfo_MinorVer>
 			<Icon_MainIcon>PersianTT_Icon.ico</Icon_MainIcon>
 			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
 			<VerInfo_Locale>1033</VerInfo_Locale>
-			<VerInfo_Keys>CompanyName=http://persiantt.codeplex.com/;FileDescription=Persian and English type tutor. Developed by Majid Shamkhani;FileVersion=1.7.0.0;InternalName=;LegalCopyright=GNU General Public License version 2 (GPLv2);LegalTrademarks=;OriginalFilename=;ProductName=Persian Type Tutor;ProductVersion=1.7.0.0;Comments=</VerInfo_Keys>
+			<VerInfo_Keys>CompanyName=https://github.com/Majid110/PersianTypeTutor;FileDescription=Persian and English type tutor. Developed by Majid Shamkhani;FileVersion=1.8.0.0;InternalName=;LegalCopyright=GNU General Public License version 2 (GPLv2);LegalTrademarks=;OriginalFilename=;ProductName=Persian Type Tutor;ProductVersion=1.8.0.0;Comments=</VerInfo_Keys>
 		</PropertyGroup>
 		<ItemGroup>
 			<DelphiCompile Include="$(MainSource)">

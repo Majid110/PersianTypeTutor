@@ -4,9 +4,9 @@ Var run_app_text
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "Persian Type Tutor"
 !define SETUP_NAME "PersianTypeTutor"
-!define PRODUCT_VERSION "1.7"
+!define PRODUCT_VERSION "1.8"
 !define PRODUCT_PUBLISHER "Majid Shamkhani"
-!define PRODUCT_WEB_SITE "http://www.persiantt.codeplex.com"
+!define PRODUCT_WEB_SITE "https://github.com/Majid110/PersianTypeTutor"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\PersianTT.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"

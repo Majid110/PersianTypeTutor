@@ -39,6 +39,7 @@ type
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure Tutor1imgOSKClick(Sender: TObject);
     procedure Tutor1imgAboutClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
     FTextDrawer     : TTextDrawer;
@@ -93,6 +94,17 @@ begin
       Exit;
 
   FTutorController.CheckKey(Key, Shift);
+end;
+
+procedure TfrmMain.FormShow(Sender: TObject);
+begin
+  if (LatestVersion <> '') and (LatestVersion <> APPLICATION_VERSION) then
+  begin
+    if MessageDlg('New version available. Do you want open download page?', mtConfirmation, mbYesNo, 0) = mrYes Then
+    begin
+      ShellExecute(Application.Handle, 'open', 'https://github.com/Majid110/PersianTypeTutor/releases', nil, nil, SW_NORMAL);
+    end;
+  end;
 end;
 
 procedure TfrmMain.Tutor1imgAboutClick(Sender: TObject);

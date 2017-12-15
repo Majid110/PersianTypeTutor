@@ -17,6 +17,7 @@ object frmMain: TfrmMain
   Position = poScreenCenter
   OnCreate = FormCreate
   OnKeyDown = FormKeyDown
+  OnShow = FormShow
   DesignSize = (
     1024
     748)
@@ -256,7 +257,7 @@ object frmMain: TfrmMain
       Left = 788
       Top = 271
       Width = 231
-      Height = 472
+      Height = 471
       AutoSize = True
       BiDiMode = bdRightToLeft
       ParentBiDiMode = False

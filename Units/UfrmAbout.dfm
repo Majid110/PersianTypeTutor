@@ -692,31 +692,31 @@ object frmAbout: TfrmAbout
       IsControl = True
     end
     object ProductName: TLabel
-      Left = 204
-      Top = 104
+      Left = 124
+      Top = 124
       Width = 90
       Height = 13
       Caption = 'Persian Type Tutor'
       IsControl = True
     end
     object Version: TLabel
-      Left = 204
-      Top = 128
+      Left = 124
+      Top = 143
       Width = 53
       Height = 13
       Caption = 'Version 1.0'
       IsControl = True
     end
     object WebSite: TLabel
-      Left = 204
-      Top = 152
-      Width = 140
+      Left = 124
+      Top = 163
+      Width = 225
       Height = 13
       Cursor = crHandPoint
-      Caption = 'http://persiantt.codeplex.com'
+      Caption = 'https://github.com/Majid110/PersianTypeTutor'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlue
-      Font.Height = -11
+      Font.Height = -12
       Font.Name = 'MS Sans Serif'
       Font.Style = [fsUnderline]
       ParentFont = False
@@ -733,7 +733,7 @@ object frmAbout: TfrmAbout
     Default = True
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -12
     Font.Name = 'Tahoma'
     Font.Style = []
     ModalResult = 1
